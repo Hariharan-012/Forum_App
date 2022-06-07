@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+.wrapper
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container
+{
+  width: 30%;
+  height: 75%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 6px 20px 6px rgba(0,0,0,0.68);
+-moz-box-shadow: 4px 6px 20px 6px rgba(0,0,0,0.68);
+  box-shadow: 4px 6px 20px 6px rgba(0,0,0,0.68);
+  position: relative;
+}
+
+.forgotPwd{
+  
+  font-weight: 700;
+  text-decoration: none;
+  position: absolute;
+  right: 195px;
+  top: 175px;
+  font-size: 17px;
+  color: #3f51b5;
+  
+}
+
+.line
+{ 
+  
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -30px;
+  
+}
+.or{
+  
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  padding: 10px;
+  color: gray;
+  background-color: white;
+}
+
+.separator{
+  background-color: lightgray;
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: -1;
+}
+.outlookButton{
+ 
+  width: 65%;
+  height: 15px;
+  margin-left: 50px;
+  border-radius: 25px;
+  padding: 15px 25px; 
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: 	#808080;
+  border: 2px solid black;
+  cursor: pointer;
+  
+
+}
+.outlookIcon{
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+  
+
+}
+
+.newAccount
+{
+  font-size: 22px;
+  position: relative;
+  bottom: 85px;
+
+}
+
+.signupLink
+{
+  text-decoration: none;
+  cursor: pointer;
+  color: #3f51b5;
+}
